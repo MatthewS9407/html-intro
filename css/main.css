@@ -1,0 +1,89 @@
+
+section #main {
+
+}
+
+section div #main {
+
+}
+
+body {
+    font-family: Arial;
+    font-size: 12px;
+    padding: 5%;
+    text-align: center;
+}
+
+/* type selector */
+
+h2 { 
+    color: fuchsia
+}
+
+#subtitle {
+    color: lime;
+}
+
+/*class selector*/
+
+.btn {
+    background-color: rgb(105, 105, 161);
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.btn-secondary {
+    background-color: rgb(255, 209, 58);
+}
+
+
+/* id selector */
+
+#first {
+    border-top: 1px solid #333;
+}
+
+
+/* universal selector 
+
+* {
+    border: 1px solid orange;
+}
+*/
+
+/* combine selectors */
+
+section {
+
+}
+
+/* descendant selector */
+
+section h2{
+    text-decoration: underline;
+}
+/* every section with the class "odd" */
+section.odd {
+
+}
+
+/* every element with the class "rounded" and "important" */
+
+.rounded.important {}
+
+#box {
+    box-sizing: border-box;
+    background-color: orange;
+    height: 100px;
+    width: 100px;
+    padding: 25px;
+    border: 10px solid lime;
+    margin: auto;
+
+    border-radius: 50%;
+}
+
+img {
+    border-radius: 50%;
+}
